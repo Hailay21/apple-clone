@@ -320,3 +320,113 @@ body {
   font-weight: 700;
   font-size: 45px;
 }
+/* sisay css, on footer */
+
+  /* ---------- Contributors Section ---------- */
+  .footer-contributors {
+    max-width: 980px;
+    margin: 0 auto 30px auto;
+    padding: 20px 0;
+    border-bottom: 1px solid #d2d2d7;
+  }
+
+  .footer-contributors h4 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1d1d1f;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 0 16px 0;
+  }
+
+  .contributors-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contributor-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: #1d1d1f;
+  }
+
+  /* ---------- Person Icon (pure CSS, no images) ---------- */
+  .person-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .person-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Male icon styling */
+  .person-icon.male {
+    background: #e8f0fe;
+  }
+  .person-icon.male svg {
+    fill: #0071e3;
+  }
+
+  /* Female icon styling */
+  .person-icon.female {
+    background: #fde8f0;
+  }
+  .person-icon.female svg {
+    fill: #d6336c;
+  }
+
+  /* ---------- Existing footer styles ---------- */
+  .copyright-wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #86868b;
+  }
+
+  .copyright {
+    margin-bottom: 10px;
+  }
+
+  .footer-links-terms ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0;
+    margin: 0 0 10px 0;
+  }
+
+  .footer-links-terms a {
+    color: #86868b;
+    text-decoration: none;
+  }
+
+  .footer-links-terms a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-country {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .flag-wrapper img {
+    width: 16px;
+    height: auto;
+    display: block;
+  }
